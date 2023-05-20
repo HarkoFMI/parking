@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Add_Button" data-name="Add Button" transform="translate(-155 -551)">
+    <circle id="Blue_Button" data-name="Blue Button" cx="33" cy="33" r="33" transform="translate(155 551)" fill="#0089ff"/>
+    <g id="Plus_Icon" data-name="Plus Icon" transform="translate(3.815 311.37) rotate(45)">
+      <line id="Line_26" data-name="Line 26" x2="16.08" y2="16.08" transform="translate(315.5 54.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+      <line id="Line_27" data-name="Line 27" x2="16.08" y2="16.08" transform="translate(331.58 54.5) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

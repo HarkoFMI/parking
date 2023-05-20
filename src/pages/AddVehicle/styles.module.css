@@ -1,0 +1,234 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.backBtnLink{
+    margin-top: 2.5em;
+}
+
+.backBtn{
+    background-image: url('../../images/icons/Arrow.svg');
+    height: 4em;
+    width: 4em;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-color: white;
+    border:none;
+    transform: rotate(180deg);
+}
+
+h1{
+    margin: 2em auto;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.flexContainerItems{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto ;
+    width: 50%;
+}
+
+.flexContainerItems p {
+    margin-left: 10em;
+}
+
+.vehiclesContainer, .fuelContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.fuelContainer .filterChoice{
+    padding: 0.2em 0.5em 0.2em 4em;
+    color: var(--dark-grey);
+}
+
+.filterChoice{
+    background-color: white;
+    border:none;
+    text-align: left;
+    height: 4em;
+    padding: 0.2em 0 0.2em 5em;
+    margin-bottom: 0.1em;
+    margin-right: 1em;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+  }
+
+  .vehicleModelInput{
+      width: 65%;
+      margin: 0 auto;
+      line-height: 2em;
+      border:none;
+      border-bottom: 2px solid var(--dark-grey);
+  }
+
+  a.button{
+    margin: 2em auto 0 auto;
+    height: 5em;
+    width: 5em;
+    display: block;
+  }
+  
+  .addVehicle{
+    width: 5em;
+    height: 5em;
+    background-image: url('../../images/ContinueButton.svg');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+  }
+  
+  .addVehicle:hover{
+    background-blend-mode: hard-light;
+  }
+
+/**/
+
+.fc1:focus-within { 
+    background-color: var(--blue);
+    color: white;
+    border-radius: 1em;
+    background-blend-mode: color-dodge;
+  }
+  
+  .fc1:hover{  
+    transform: scale(1.2);
+    transition: all ease-in-out .3s;
+  }
+
+.motorbike{
+    background-image: url('../../images//icons/vehicles/Motorbike.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .smallCar{
+    background-image: url('../../images//icons/vehicles/SmallCar.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .longCar{
+    background-image: url('../../images//icons/vehicles/LongCar.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  
+  .suv{
+    background-image: url('../../images//icons/vehicles/SUV.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .bus{
+    background-image: url('../../images//icons/vehicles/Bus.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .cargoTruck{
+    background-image: url('../../images//icons/vehicles/CargoTruck.svg');
+    background-repeat: no-repeat;
+    background-size: 3em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .petrol{
+    background-image: url('../../images//icons/fuels/Petrol.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .diesel{
+    background-image: url('../../images//icons/fuels/Diesel.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .gas{
+    background-image: url('../../images//icons/fuels/Gas.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .electric{
+    background-image: url('../../images//icons/fuels/Electric.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+
+  .petrol{
+    background-image: url('../../images//icons/fuels/Petrol.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .diesel{
+    background-image: url('../../images//icons/fuels/Diesel.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .gas{
+    background-image: url('../../images//icons/fuels/Gas.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+  
+  .electric{
+    background-image: url('../../images//icons/fuels/Electric.svg');
+    background-repeat: no-repeat;
+    background-size: 2em;
+    background-position-x: 1em;
+    background-position-y: 1.2em;
+  }
+
+
+  @media only screen and (max-width: 685px){
+    .flexContainer, .flexContainerItems{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1106px){
+
+    .flexContainerItems{
+        overflow-x: scroll;
+    }
+  }
+

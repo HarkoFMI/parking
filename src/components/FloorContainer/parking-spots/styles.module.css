@@ -1,0 +1,35 @@
+.parkingSpot {
+    border: 2px solid black;
+    border-radius: 1.5em;
+    text-align: center;
+    line-height: 14em;
+    height: 14em;
+    width: 7m;
+    font-size: 1.5em;
+}
+
+.available {
+    background-color: gray;
+}
+
+.unavailable {
+    background-color: rgba(153, 115, 235, 0.759);
+}
+
+.taken {
+    background-color: rgb(219, 70, 70);
+}
+ 
+.beingTaken {
+    background-color: rgb(196, 196, 0);
+}
+ 
+.reserved {
+    background-color: rgb(29, 126, 29);
+}
+
+.emptySpot {
+    background-color: white !important;
+    height: 16em;
+    width: 8em;
+}

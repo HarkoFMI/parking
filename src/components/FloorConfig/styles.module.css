@@ -1,0 +1,28 @@
+.config {
+    position: absolute;
+    top: 10em;
+    left: 35em;
+    border: 1px solid gray;
+    width: 60%;
+    height: 4em;
+    text-align: center;
+}
+
+.label {
+    padding: 1em;
+    font-size: 1.2em;
+    position: relative;
+    top: 10%;
+}
+
+.dropdown {
+    text-align: right;
+    font-size: 1.3em;
+    position: relative;
+    left: 10em;
+    border-left: 1px solid rgb(200, 192, 192);
+}
+
+.datetime {
+    width: 25em;
+}

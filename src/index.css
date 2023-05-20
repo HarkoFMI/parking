@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+/* COLOR VARIABLES */
+:root {
+  --blue: #3195f3;
+  --light-blue: #d2e5f7;
+  --dark-blue: #09457e;
+  --light-grey: #d1d1d1;
+  --dark-grey: #4d4d4d;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}

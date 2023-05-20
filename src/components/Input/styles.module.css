@@ -1,0 +1,7 @@
+.input{
+    width: 90%;
+    margin-bottom: 2em;
+    line-height: 2em;
+    border:none;
+    border-bottom: 2px solid var(--light-grey);
+  }

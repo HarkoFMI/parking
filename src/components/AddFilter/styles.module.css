@@ -1,0 +1,208 @@
+.filter{
+  display: flex;
+  margin-top: 2em;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+.filterButton{
+  width: 3em;
+  height: 3em;
+  background-color: white;
+  color: var(--blue);
+  background-image: url('../../images//icons/Filter.svg');
+  background-size: 3em;
+  background-repeat: no-repeat;
+  margin: 0.5em 1em;
+  border-radius: 4em;
+  border: none;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rowDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+#filterLabel{
+  padding-top: 1em;
+  color: var(--blue);
+  font-size: 1.2em;
+}
+
+/*Accordion*/
+.accordionHeader{
+  background-color: white;
+  border: none;
+}
+
+.customizeCard{
+  border: none;
+}
+
+.mainAccordionBody{
+  -webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.44);
+  -moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.44);
+  box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.44);
+  margin: 1em;
+}
+
+
+.filterOptionBtn{
+  color: var(--blue);
+  font-size: 1.2em;
+  border: none;
+  background-color: white;
+  width: 20em;
+}
+
+.filterOptionBtn div{
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+}
+
+.arrow{
+  width: 1em !important; /*in my defense - bootstrap!*/
+  height: 1em !important;
+  transform: rotate(90deg);
+}
+
+/*.arrowPointingDown{
+  transition: all ease-in 0.2s;
+}*/
+
+.filterChoice{
+  background-color: white;
+  border:none;
+  color: var(--dark-grey);
+  text-align: left;
+  height: 4em;
+  width: 26em;
+  padding: 0.2em 0 0.2em 5em;
+  margin-bottom: 0.1em;
+}
+
+/*The clicked buttons could be toggled with this class with some JS, but for now this works.
+Only drawback is that the don't remain blue once we choose another filter from the accordion*/
+.fc1:focus-within { 
+  background-color: var(--blue);
+  color: white;
+  border-radius: 1em;
+  background-blend-mode: color-dodge;
+}
+
+.fc1:hover{  
+  transform: scale(1.2);
+  transition: all ease-in-out .3s;
+}
+
+/*Code repetition begins here*/
+
+.motorbike{
+  background-image: url('../../images//icons/vehicles/Motorbike.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.smallCar{
+  background-image: url('../../images//icons/vehicles/SmallCar.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.longCar{
+  background-image: url('../../images//icons/vehicles/LongCar.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+
+.suv{
+  background-image: url('../../images//icons/vehicles/SUV.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.bus{
+  background-image: url('../../images//icons/vehicles/Bus.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.cargoTruck{
+  background-image: url('../../images//icons/vehicles/CargoTruck.svg');
+  background-repeat: no-repeat;
+  background-size: 3em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.petrol{
+  background-image: url('../../images//icons/fuels/Petrol.svg');
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.diesel{
+  background-image: url('../../images//icons/fuels/Diesel.svg');
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.gas{
+  background-image: url('../../images//icons/fuels/Gas.svg');
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.electric{
+  background-image: url('../../images//icons/fuels/Electric.svg');
+  background-repeat: no-repeat;
+  background-size: 2em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.secure{
+  background-image: url('../../images//icons/services/Secure.svg');
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.disabled{
+  background-image: url('../../images//icons/services/Disabled.svg');
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.charge{
+  background-image: url('../../images//icons/services/Charging.svg');
+  background-repeat: no-repeat;
+  background-size: 1.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}

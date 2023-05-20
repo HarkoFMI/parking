@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Continue_Button" data-name="Continue Button" transform="translate(-155 -556)">
+    <circle id="Blue_Circle" data-name="Blue Circle" cx="33" cy="33" r="33" transform="translate(155 556)" fill="#0089ff"/>
+    <g id="Tick_Icon" data-name="Tick Icon" transform="translate(173 578.528)">
+      <path id="Path_5" data-name="Path 5" d="M28.638,68.423a1.453,1.453,0,0,0-2.055,0L9.172,85.833,2.48,79.141A1.453,1.453,0,0,0,.425,81.2l7.72,7.72a1.454,1.454,0,0,0,2.055,0L28.638,70.478A1.453,1.453,0,0,0,28.638,68.423Z" transform="translate(0 -67.997)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,169 @@
+.vehicles{
+  display: flex;
+  margin: 2em auto 0 auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+#subtitle{
+  margin: 1em auto 4em auto;
+}
+
+.vehiclesDiv{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width:70%;
+}
+
+#title{
+  text-transform: uppercase;
+  color: var(--blue);
+  margin: 0 auto;
+}
+
+.vehicleBtn{
+  background-color: white;
+  border:none;
+  color: var(--dark-grey);
+  text-align: left;
+  height: 4em;
+  width: 100%;
+  padding: 0.2em 0 0.2em 0.2em;
+  margin: 0.4em auto 0.4em auto;
+  font-size: 1.2em;
+  border-radius: 0.8em;
+  border: none;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.vehicleBtn p{
+  color: var(--dark-grey);
+}
+
+.vehicleBtn div:first-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fueltype{
+  margin-top: 2.5em !important;
+  margin-left: 0.8em !important;
+}
+
+.vehicleBtn .modelAndPlate{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  text-align: right;
+}
+
+.vehicleBtn .modelAndPlate p{
+  margin: 0 0.5em 0 0;
+}
+
+a.button{
+  margin: 2em auto 0 auto;
+}
+
+.addVehicle{
+  width: 5em;
+  height: 5em;
+  background-image: url('../../images/AddButton.svg');
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+}
+
+.addVehicle:hover{
+  background-blend-mode: hard-light;
+}
+
+
+@media screen and (max-width: 800px){
+  .box{
+    width: 90%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+/*Code repetition begins here*/
+
+.accountDetails{
+  background-image: url('../../images/icons/accountSettings/account.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+
+.kawasaki{
+  background-image: url('../../images//icons/vehicles/Motorbike.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1em;
+}
+
+
+.micra{
+  background-image: url('../../images//icons/vehicles/SmallCar.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1em;
+}
+
+.toyota{
+  background-image: url('../../images//icons/vehicles/LongCar.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.volvo{
+  background-image: url('../../images/icons/vehicles/SUV.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+  margin-top: 1em;
+}
+
+.support{
+  background-image: url('../../images//icons/accountSettings/ChatIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.settingsIcon{
+  background-image: url('../../images//icons/accountSettings/SettingsIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.logOut{
+  background-image: url('../../images//icons/accountSettings/LogoutIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+  margin-top: 1em;
+}
+
+@media only screen and (max-width: 685px){
+  .settingsDiv{
+    width: 100%;
+  }
+}

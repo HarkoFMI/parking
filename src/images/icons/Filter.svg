@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22.957" viewBox="0 0 22 22.957">
+  <g id="Filter" transform="translate(-10.667 22.957) rotate(-90)">
+    <g id="Group_85" data-name="Group 85" transform="translate(0 26.183)">
+      <g id="Group_84" data-name="Group 84">
+        <path id="Path_92" data-name="Path 92" d="M22,354.316H19.453a3.358,3.358,0,0,0-6.384,0H.957a.927.927,0,1,0,0,1.853H13.069a3.358,3.358,0,0,0,6.384,0H22a.927.927,0,1,0,0-1.853Zm-5.739,2.316a1.39,1.39,0,1,1,1.435-1.389A1.414,1.414,0,0,1,16.261,356.631Z" transform="translate(0 -352)" fill="#0089ff"/>
+      </g>
+    </g>
+    <g id="Group_87" data-name="Group 87" transform="translate(0 10.667)">
+      <g id="Group_86" data-name="Group 86">
+        <path id="Path_93" data-name="Path 93" d="M22,12.983H19.453a3.358,3.358,0,0,0-6.384,0H.957a.927.927,0,1,0,0,1.853H13.069a3.358,3.358,0,0,0,6.384,0H22a.927.927,0,1,0,0-1.853ZM16.261,15.3A1.39,1.39,0,1,1,17.7,13.909,1.414,1.414,0,0,1,16.261,15.3Z" transform="translate(0 -10.667)" fill="#0089ff"/>
+      </g>
+    </g>
+    <g id="Group_89" data-name="Group 89" transform="translate(0 18.425)">
+      <g id="Group_88" data-name="Group 88">
+        <path id="Path_94" data-name="Path 94" d="M22,183.65H9.888a3.358,3.358,0,0,0-6.384,0H.957a.927.927,0,1,0,0,1.853H3.5a3.358,3.358,0,0,0,6.384,0H22a.927.927,0,1,0,0-1.853ZM6.7,185.965a1.39,1.39,0,1,1,1.435-1.389A1.414,1.414,0,0,1,6.7,185.965Z" transform="translate(0 -181.334)" fill="#0089ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

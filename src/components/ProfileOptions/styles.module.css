@@ -1,0 +1,196 @@
+.settings{
+  display: flex;
+  margin: 2em auto 0 auto;
+  width: 50%;
+  flex-direction: column;
+}
+
+.settingsDiv{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+.filterOptionBtn{
+  color: var(--blue);
+  font-size: 1.2em;
+  border: none;
+  background-color: white;
+  width: 20em;
+}
+
+.filterOptionBtn div{
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+}
+
+.arrow{
+  width: 1em !important; /*in my defense - bootstrap!*/
+  height: 1em !important;
+  transform: rotate(90deg);
+}
+
+
+.accountSettingsBtn{
+  background-color: white;
+  border:none;
+  color: var(--dark-grey);
+  text-align: left;
+  height: 4em;
+  width: 100%;
+  padding: 0.2em 0 0.2em 5em;
+  margin: 0 auto 0.1em auto;
+  font-size: 1.2em;
+}
+
+.accountSettingsBtn:hover{
+  transform: scale(1.05);
+  transition: all ease-in-out .3s;
+  background-blend-mode: luminosity;
+}
+
+/*popup screen
+doesn't support long (longer than 100vh) content in my browser (mozilla), 
+overflow-y:scroll doesn't work for some reason*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto 0px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  min-width: 400px;
+  position: relative;
+  transition: all 5s ease-in-out;
+  height: fit-content;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: var(--blue);
+}
+.popup .content {
+  max-height: 100%;
+  /*overflow: auto;*/
+}
+
+.box{
+  width: 70%;
+}
+
+@media screen and (max-width: 800px){
+  .box{
+    width: 90%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+/*Code repetition begins here*/
+
+.accountDetails{
+  background-image: url('../../images/icons/accountSettings/account.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.vehicles{
+  background-image: url('../../images//icons/accountSettings/SteeringWheelIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.subscriptions{
+  background-image: url('../../images//icons/accountSettings/subscriptions.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.history{
+  background-image: url('../../images//icons/accountSettings/CalendarIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.howItworks{
+  background-image: url('../../images/icons/accountSettings/Book.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+  margin-top: 1em;
+}
+
+.support{
+  background-image: url('../../images//icons/accountSettings/ChatIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.settingsIcon{
+  background-image: url('../../images//icons/accountSettings/SettingsIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+}
+
+.logOut{
+  background-image: url('../../images//icons/accountSettings/LogoutIcon.svg');
+  background-repeat: no-repeat;
+  background-size: 2.5em;
+  background-position-x: 1em;
+  background-position-y: 1.2em;
+  margin-top: 1em;
+}
+
+
+
+@media only screen and (max-width: 685px){
+  .settingsDiv{
+    width: 100%;
+  }
+}

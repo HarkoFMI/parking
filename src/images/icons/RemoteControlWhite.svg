@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="64" viewBox="0 0 42 64">
+  <defs>
+    <filter id="Ellipse_32" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_33" x="0" y="22" width="42" height="42" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Remote_Control" data-name="Remote Control" transform="translate(1360.167 -2630.924)">
+    <rect id="Grey_Rectangle_V" data-name="Grey Rectangle V" width="37" height="57" rx="6" transform="translate(-1358.167 2633.924)" fill="#fff"/>
+    <g id="Open_Button" data-name="Open Button" transform="translate(-1347.955 2642.929)">
+      <g transform="matrix(1, 0, 0, 1, -12.21, -12)" filter="url(#Ellipse_32)">
+        <circle id="Ellipse_32-2" data-name="Ellipse 32" cx="9" cy="9" r="9" transform="translate(12 12)" fill="#0089ff"/>
+      </g>
+      <text id="O" transform="translate(8.465 12.897)" fill="#fff" font-size="11" font-family="Verdana"><tspan x="-4.329" y="0">O</tspan></text>
+    </g>
+    <g id="Close_Button" data-name="Close Button" transform="translate(-1347.955 2665.253)">
+      <g transform="matrix(1, 0, 0, 1, -12.21, -34.33)" filter="url(#Ellipse_33)">
+        <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="9" cy="9" r="9" transform="translate(12 34)" fill="#0089ff"/>
+      </g>
+      <text id="C" transform="translate(8.246 11.897)" fill="#fff" font-size="10" font-family="Verdana"><tspan x="-3.491" y="0">C</tspan></text>
+    </g>
+  </g>
+</svg>

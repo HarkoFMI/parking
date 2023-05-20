@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="72" viewBox="0 0 280 72">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="280" height="72" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ApplePay_Info_Panel" data-name="ApplePay Info Panel" transform="translate(-48 -428)">
+    <g transform="matrix(1, 0, 0, 1, 48, 428)" filter="url(#Rectangle)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="256" height="48" rx="12" transform="translate(12 12)" fill="#fff"/>
+    </g>
+    <g id="ApplePay_Info" data-name="ApplePay Info">
+      <text id="ApplePay_Email" data-name="ApplePay Email" transform="translate(115 470)" font-size="14" font-family="Verdana" opacity="0.65"><tspan x="0" y="0">theojames@icloud.com</tspan></text>
+      <g id="ApplePay_Logo" data-name="ApplePay Logo" transform="translate(80.996 452)">
+        <path id="ApplePay_Text" data-name="ApplePay Text" d="M4.93,114.87v5.258h.832v-1.753H6.9a1.753,1.753,0,1,0,.027-3.505h-2Zm.832.7h.964a1.054,1.054,0,1,1,0,2.1H5.762v-2.1Zm4.846.7c-.873,0-1.517.489-1.542,1.162h.74a.719.719,0,0,1,.778-.53c.5,0,.787.231.787.653v.292l-1.028.055c-.954.056-1.47.44-1.47,1.106a1.157,1.157,0,0,0,1.3,1.119,1.365,1.365,0,0,0,1.212-.662H11.4v.623h.759v-2.583c0-.75-.611-1.233-1.551-1.233Zm1.859,0,1.4,3.838-.076.234a.658.658,0,0,1-.7.548,2.31,2.31,0,0,1-.237-.014v.632a2.545,2.545,0,0,0,.308.02c.808,0,1.189-.3,1.522-1.227l1.456-4.031H15.3l-.977,3.115H14.31l-.977-3.115h-.867Zm-1.1,2.1,0,.3a.887.887,0,0,1-.978.832c-.437,0-.717-.207-.717-.522s.269-.516.781-.547l.916-.068Z" transform="translate(-4.177 -97.424)" fill="#9b9b9b" fill-rule="evenodd"/>
+        <path id="Apple_Logo" data-name="Apple Logo" d="M9.5,0A3.455,3.455,0,0,0,7.162,1.253a3.56,3.56,0,0,0-.84,2.539A2.888,2.888,0,0,0,8.673,2.633,3.785,3.785,0,0,0,9.494,0Zm-.1,4.275c-1.308,0-2.242.712-2.852.712s-1.545-.7-2.614-.7A3.883,3.883,0,0,0,.664,6.3C-.722,8.692.3,12.23,1.646,14.176c.656.964,1.449,1.98,2.52,1.98.98-.036,1.312-.594,2.5-.594s1.545.594,2.614.594,1.716-.98,2.372-1.944A8.476,8.476,0,0,0,12.72,12a3.49,3.49,0,0,1-2.088-3.179,3.56,3.56,0,0,1,1.69-2.983A3.658,3.658,0,0,0,9.511,4.275H9.393Z" transform="translate(0)" fill="#9b9b9b" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
