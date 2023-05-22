@@ -1,14 +1,7 @@
 import React from "react";
 import { EmptySpot } from "./parking-spots/EmptySpot";
 import { ParkingSpot } from "./parking-spots/ParkingSpot";
-
-const ParkingSpotState = {
-    unavailable: "unavailable",
-    taken: "taken",
-    beingTaken: "beingTaken",
-    reserved: "reserved",
-    available: "available" 
-}
+import { ParkingSpotState } from "./parking-spots/const";
 
 const states = [
     ParkingSpotState.unavailable,

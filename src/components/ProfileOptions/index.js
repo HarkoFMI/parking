@@ -21,7 +21,7 @@ class ProfileOptions extends React.Component {
               <a className={styles.close} href="#">&times;</a>
               <div className={styles.content}>
                 <div className={styles.flexContainerItems}>
-                  <p>Registered on: 08/05/2020</p>
+                  <p>Registered on: 09/05/2023</p>
                 </div>
               </div>
             </div>

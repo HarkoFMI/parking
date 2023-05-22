@@ -3,7 +3,7 @@ import { Header, Input } from "components";
 import { Grid, Image, Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import * as cx from "classnames";
-import logo from "images/parkitlogo.png";
+import logo from "images/parkinglogo.png";
 import styles from "./styles.module.css";
 
 export default class AddVehicle extends React.Component {

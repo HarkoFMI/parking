@@ -38,13 +38,13 @@
   margin: 2em 2em 0 2em;
 }
 
-.phones{
+.phone {
   height: 42em;
   margin-top: 8em;
   width: 50%;
 }
 
-.phones img{
+.phone img{
   height: 42em;
 }
 
@@ -241,13 +241,6 @@
   color: var(--blue);
 }
 
-.carouselCaption p{
-  font-weight: normal;
-  font-style: italic;
-  background-image: url("../../images/quotes.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 
 /*Responsiveness of top blue section*/
@@ -270,16 +263,16 @@
     flex-direction: column;
   }
 
-  .phones{
+  .phone {
     width: 100%;
     text-align: center;
   }
 
-  .phones img{
+  .phone img {
     margin: 0 auto;
   }
 
-  .services{
+  .services {
     margin-top: 24em;
   }
 }

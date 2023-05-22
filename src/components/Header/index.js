@@ -18,7 +18,7 @@ class Header extends React.Component {
         <Nav className="mr-auto">
           <Navbar.Brand href="/home" className={styles.navTitle}>
             <img src={logo} alt="logo" className={styles.logo} />
-            FMI-Parking
+            Parking
           </Navbar.Brand>
         </Nav>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

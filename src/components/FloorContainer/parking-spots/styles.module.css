@@ -33,3 +33,113 @@
     height: 16em;
     width: 8em;
 }
+
+.modal {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    left: 25%
+}
+
+.modalText {
+    color: var(--blue) !important;
+    word-wrap: break-word !important;
+}
+
+.modalDescription {
+    font-size: 16px;
+    color: var(--blue) !important;
+    word-wrap: break-word !important;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.unavailableModal {
+    width: 35em !important;
+    height: 17em;
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.availableModal {
+    width: 45em !important;
+    height: 43%;
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.takenModal {
+    width: 35em !important;
+    height: 17em;
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.reservedModal {
+    width: 35em !important;
+    height: 17em;
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.beingTakenModal {
+    width: 45em !important;
+    height: 46%;
+    margin: auto;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.actionsAvailable {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.actionsBeingTaken {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.modalLabel {
+    color: var(--blue);
+    margin: auto;
+    padding: auto;
+    position: relative;
+    right: 1em;
+}
+
+.datetimeSelect {
+    margin: 3em 0 0 2em;
+}
+
+.datetime {
+    margin-left: 0.5em;
+    margin-bottom: 2em;
+}
+
+.successModal {
+    width: 35em !important;
+    height: 9em;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+
+.adminModal {
+    
+}
