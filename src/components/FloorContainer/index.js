@@ -1,15 +1,18 @@
 import React from "react"
 import styles from "./styles.module.css";
-import { rowConfig } from "./config.js";
+import { getRowConfig } from "./config.js";
+import { Legend } from "./parking-spots/legend/Legend"
 
-
-export function FloorContainer() {
+export function FloorContainer({ isAdmin }) {
     return (
-        <table className={styles.container}>
-            <tbody>
-                {rowConfig.map(rowCallback)}
-            </tbody>
-        </table>
+        <div className={styles.wrapper}>
+            <table className={styles.container}>
+                <tbody>
+                    {getRowConfig(isAdmin).map(rowCallback)}
+                </tbody>
+            </table>
+            <Legend />
+        </div>
     )
 }
 

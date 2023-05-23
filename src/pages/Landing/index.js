@@ -1,5 +1,4 @@
 import React from "react";
-import * as cx from 'classnames';
 
 import { Header } from "components";
 
@@ -28,14 +27,14 @@ export default class Landing extends React.Component {
         <section className={styles.services}>
           <div className={styles.leftServicesColumn}>
             <p><span>Real-time</span> availability information<br></br>updated every minute</p>
-            <p>Takes into account parking<br></br><span>restriction information</span>, such as<br></br>areas where it is illegal to park</p>
-            <p>Get <span>directions</span> to the nearest<br></br>available parking spot, not just<br></br>the street address</p>
-            <p>Saves <span>up to 73%</span> of your time<br></br>looking for on-street or<br></br>off-street parking</p>
+            <p>Takes into account <span>working <br></br> hours</span>, amount of people <br></br>working from the office and other metrics</p>
+            <p>Get <span>directions</span> to the best<br></br>available parking spots</p>
+            <p>Saves <span>up to 73%</span> more time<br></br>by having easy access to<br></br> reserving office parking spots</p>
           </div>
           <div className={styles.rightServicesColumn}>
-            <p>Allows you to see <br></br><span>parking availability</span> for every street and<br></br>off-street location within a<br></br>specified area</p>
-            <p>Ability to choose between <span>free</span>,<br></br><span>paid</span> and <span>permit</span> on-street and<br></br>off-street parking types</p>
-            <p>Helps you avoid <span>overstaying</span>,<br></br><span>overpaying</span> or <span>getting a ticket</span></p>
+            <p>Allows you to see <span>parking availability</span> of all parking spots<br></br>within the office area</p>
+            <p>Ability to <span>change</span> and <br></br> <span>remove</span> reservations at any time </p>
+            <p>Helps you avoid <span>overstaying</span>,<br></br><span>understaying</span> or not <br></br> being <span>able to park</span></p>
           </div>
         </section>
       </>

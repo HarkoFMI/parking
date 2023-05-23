@@ -1,14 +1,3 @@
-.flexContainer{
-    display: flex;
-    flex-direction: row;
+.wrapper {
     width: 100%;
-    margin: 0;
-}
-
-
-@media only screen and (max-width: 768px){
-    .flexContainer{
-        flex-direction: column;
-    }
-
 }

@@ -1,9 +1,9 @@
 .config {
     position: absolute;
-    top: 10em;
-    left: 35em;
+    top: 15%;
+    left: 15%;
     border: 1px solid gray;
-    width: 60%;
+    width: 55.35%;
     height: 4em;
     text-align: center;
 }
@@ -18,9 +18,8 @@
 .dropdown {
     text-align: right;
     font-size: 1.3em;
-    position: relative;
-    left: 10em;
-    border-left: 1px solid rgb(200, 192, 192);
+    border-radius: 0px !important;
+
 }
 
 .datetime {

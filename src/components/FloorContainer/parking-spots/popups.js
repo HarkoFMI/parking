@@ -139,7 +139,7 @@ export const AdminPopup = ({ closeCallback }) => {
     <Modal.Header className={styles.modalText}>This spot is reserved by <i>User123</i> for the chosen duration</Modal.Header>
     <Modal.Content>
         <Modal.Description className={styles.modalDescription}>
-            If you already know that, probably you want to change or delete your reservation.
+            If you already know that, probably you want to change or delete this reservation.
         </Modal.Description>
     </Modal.Content>
     <Modal.Actions>

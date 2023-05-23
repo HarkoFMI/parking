@@ -21,7 +21,10 @@ class App extends React.Component {
               <Account />
             </Route>
             <Route path="/floors">
-              <Floors />
+              <Floors isAdmin={false}  />
+            </Route>
+            <Route path="/admin-floors">
+              <Floors isAdmin={true} />
             </Route>
             <Route path="/home">
               <Landing />

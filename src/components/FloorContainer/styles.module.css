@@ -1,8 +1,22 @@
 .container {
-  border: 1px solid black !important;
-  position: relative;
-  top: 10em;
-  left: 35em;
-  width: 60%;
-  height: 70%;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 30% !important;
+  overflow: scroll;
+  height: 50%;
+}
+
+td {
+  width: 100%;  
+}
+
+.wrapper {
+  width: 20em !important;
+}
+
+table {
+  border-collapse:separate;
+  border:solid black 1px;
+  border-radius: 1em;
 }
