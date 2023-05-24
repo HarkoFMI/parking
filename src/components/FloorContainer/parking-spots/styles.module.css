@@ -2,11 +2,17 @@
     border: 2px solid black;
     border-radius: 1.5em;
     text-align: center;
-    line-height: 10em;
-    height: 10em;
-    width: 5.5m;
+    line-height: 9em;
+    width: 100%;
     font-size: 1.5em;
 }
+
+.emptySpot {
+    background-color: white !important;
+    height: 10em;
+    width: 6.5em;
+}
+
 
 .available {
     background-color: gray;
@@ -26,12 +32,6 @@
  
 .reserved {
     background-color: rgb(29, 126, 29);
-}
-
-.emptySpot {
-    background-color: white !important;
-    height: 10em;
-    width: 6.5em;
 }
 
 .modal {
@@ -66,7 +66,7 @@
 
 .availableModal {
     width: 45% !important;
-    height: 45%;
+    height: 40%;
     margin: auto;
     position: relative;
     top: 25%;
@@ -74,19 +74,18 @@
 }
 
 .takenModal {
-    width: 35em !important;
-    height: 17em;
+    width: 35% !important;
+    height: 23%;
     margin: auto;
-    position: relative;
-    top: 35%;
-    left: 40%;
+    position: absolute;
+    top: 38%;
+    left: 33%;
 }
 
 .reservedModal {
-    width: 30% !important;
-    height: 26%;
-    margin: auto;
-    position: relative;
+    width: 35%;
+    height: 25%;
+    position: absolute;
     top: 35%;
     left: 35%;
 }
@@ -95,19 +94,12 @@
     width: 45% !important;
     height: 50%;
     margin: auto;
-    position: relative;
+    position: absolute;
     top: 25%;
     left: 25%;
 }
 
-.actionsAvailable {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-}
-
-.actionsBeingTaken {
+.actions {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -134,16 +126,51 @@
 .successModal {
     width: 35em !important;
     height: 9em;
-    position: relative;
+    position: absolute;
     top: 35%;
     left: 40%;
 }
 
 .adminModal {
-    width: 35% !important;
-    height: 22%;
+    width: 40% !important;
+    height: 30%;
     margin: auto;
     position: relative;
     top: 35%;
     left: 35%;
 }
+
+@media (max-width:1300px) { 
+    .parkingSpot {
+        border: 2px solid black;
+        border-radius: 1.5em;
+        text-align: center;
+        line-height: 7em;
+        width: 100%;
+        font-size: 1.5em;
+    }   
+    
+    .emptySpot {
+        background-color: white !important;
+        height: 7em;
+        width: 6em;
+    }
+
+    .takenModal {
+        width: 50% !important;
+        height: 25%;
+        margin: auto;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+    
+    
+    .reservedModal {
+        width: 45% !important;
+        height: 25%;
+        position: absolute;
+        top: 35%;
+        left: 30%;
+    }
+} 

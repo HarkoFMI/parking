@@ -11,7 +11,7 @@ export const TakenPopup = ({ closeCallback }) => {
           Another user has already reserved this spot for the given timeframe. Perhaps you should try with another one.
         </Modal.Description>
       </Modal.Content>
-      <Modal.Actions>
+      <Modal.Actions className={styles.actions}>
         <Button color='red' onClick={closeCallback}>
           Close
         </Button>
@@ -27,7 +27,7 @@ export const UnavailablePopup = ({ closeCallback }) => {
         The spot will be unavailable most likely due to planned maintanence or construction work.
       </Modal.Description>
     </Modal.Content>
-    <Modal.Actions>
+    <Modal.Actions className={styles.actions}>
       <Button color='red' onClick={closeCallback}>
         Close
       </Button>
@@ -54,7 +54,7 @@ export const AvailablePopup = ({ closeCallback, reserveCallback }) => {
             <DateTimePicker onChange={setTo} value={to} />
           </div>
         </Modal.Content>
-        <Modal.Actions className={styles.actionsAvailable}>
+        <Modal.Actions className={styles.actions}>
           <Button color='green' onClick={() => {
             reserveCallback();  
             closeCallback();
@@ -92,7 +92,7 @@ export const BeingTakenPopup = ({ closeCallback, reserveCallback }) => {
                 <DateTimePicker className={styles.datetime} onChange={setTo} value={to} />
             </div>
         </Modal.Content>
-        <Modal.Actions className={styles.actionsBeingTaken}>
+        <Modal.Actions className={styles.actions}>
         <Button color='green' onClick={() => {
             reserveCallback();  
             closeCallback();
@@ -120,7 +120,7 @@ export const ReservedPopup = ({ closeCallback }) => {
             If you already know that, probably you want to change or delete your reservation.
         </Modal.Description>
     </Modal.Content>
-    <Modal.Actions>
+    <Modal.Actions className={styles.actions}>
         <Button color='blue' onClick={closeCallback}>
             Change
         </Button>
@@ -142,7 +142,7 @@ export const AdminPopup = ({ closeCallback }) => {
             If you already know that, probably you want to change or delete this reservation.
         </Modal.Description>
     </Modal.Content>
-    <Modal.Actions>
+    <Modal.Actions className={styles.actions}>
         <Button color='blue' onClick={closeCallback}>
             Change
         </Button>

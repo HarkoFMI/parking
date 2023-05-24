@@ -6,11 +6,6 @@
     display: inline-block;
 }
 
-.description {
-    position: relative;
-    top: -0.5em;
-}
-
 .legend {
     width: 25%;
     height: 25%;
@@ -19,6 +14,19 @@
     right: 2.5%;
     top: 30%;
     border-radius: 2em;
+}
+
+@media (max-width:1300px) {
+    .legend {
+        display: none;
+    }
+    
+} 
+
+
+.description {
+    position: relative;
+    top: -0.5em;
 }
 
 .available {
