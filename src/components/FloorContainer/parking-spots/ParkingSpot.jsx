@@ -2,19 +2,19 @@ import React, { useState, useEffect } from "react";
 import styles from './styles.module.css';
 import { ParkingSpotState } from "./const";
 import { UnavailablePopup, AvailablePopup, TakenPopup, BeingTakenPopup, ReservedPopup, AdminPopup } from "./popups";
-import { Modal } from "semantic-ui-react";
+import { Modal, Button } from "semantic-ui-react";
 
-const getPopup = (state, closeCallback, reserveCallback, isAdmin) => {
-    if (isAdmin) {
+const getPopup = (state, closeCallback, reserveCallback, additionalProps) => {
+    if (additionalProps.isAdmin) {
         return <AdminPopup closeCallback={closeCallback} reserveCallback={reserveCallback} />
     }
 
     switch (state) {
-        case ParkingSpotState.unavailable: return <UnavailablePopup closeCallback={closeCallback} />
-        case ParkingSpotState.available: return <AvailablePopup closeCallback={closeCallback} reserveCallback={reserveCallback} />
-        case ParkingSpotState.taken: return <TakenPopup closeCallback={closeCallback}/>
-        case ParkingSpotState.beingTaken: return <BeingTakenPopup closeCallback={closeCallback} reserveCallback={reserveCallback} />
-        case ParkingSpotState.reserved: return <ReservedPopup closeCallback={closeCallback} /> 
+        case ParkingSpotState.unavailable: return <UnavailablePopup closeCallback={closeCallback} {...additionalProps} />
+        case ParkingSpotState.available: return <AvailablePopup closeCallback={closeCallback} reserveCallback={reserveCallback}  {...additionalProps} />
+        case ParkingSpotState.taken: return <TakenPopup closeCallback={closeCallback}  {...additionalProps}/>
+        case ParkingSpotState.beingTaken: return <BeingTakenPopup closeCallback={closeCallback} reserveCallback={reserveCallback}  {...additionalProps} />
+        case ParkingSpotState.reserved: return <ReservedPopup closeCallback={closeCallback}  {...additionalProps} /> 
     }
 }
 
@@ -35,7 +35,8 @@ const getModalStyle = (state, isAdmin) => {
 
 
 
-export const ParkingSpot = ({ location, state, isAdmin }) => {
+export const ParkingSpot = (props) => {
+    let { location, state, isAdmin } = props  
     let [open, setOpen] = useState(false);
     let [success, setSuccess] = useState(false);
 
@@ -59,15 +60,25 @@ export const ParkingSpot = ({ location, state, isAdmin }) => {
             }
       >
             {
-                getPopup(state, () => setOpen(false), () => setSuccess(true), isAdmin)
+                getPopup(state, () => setOpen(false), () => setSuccess(true), props)
             }
         </Modal>
         <Modal
             className={styles.successModal}
             open={success}
             header='Reservation successful'
-            actions={['Close', { key: 'close', content: 'Successfully reserved', positive: true }]}
-        />
+        >
+            <Modal.Header>Reservation successful</Modal.Header>
+
+            <Modal.Actions>
+                <Button positive={false} onClick={() => setSuccess(false)}>
+                     Close
+                </Button>
+                <Button positive={true} onClick={() => setSuccess(false)}>
+                    Successfully reserved
+                </Button>
+            </Modal.Actions>
+        </Modal>
         </>
     )
 }

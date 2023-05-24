@@ -6,10 +6,8 @@ import 'react-datetime-picker/dist/DateTimePicker.css';
 import 'react-calendar/dist/Calendar.css';
 import 'react-clock/dist/Clock.css';
 
-export function FloorConfig() {
+export function FloorConfig({ from, setFrom, to, setTo }) {
     let [floor, setFloor] = useState("Floor 1");
-    let [from, setFrom] = useState(new Date());
-    let [to, setTo] = useState(new Date());
     
     return <Menu className={styles.config}>
         <Menu.Item className={styles.datetime}>

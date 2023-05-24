@@ -3,12 +3,12 @@ import styles from "./styles.module.css";
 import { getRowConfig } from "./config.js";
 import { Legend } from "./parking-spots/legend/Legend"
 
-export function FloorContainer({ isAdmin }) {
+export function FloorContainer(additionalProps) {
     return (
         <div className={styles.wrapper}>
             <table className={styles.container}>
                 <tbody>
-                    {getRowConfig(isAdmin).map(rowCallback)}
+                    {getRowConfig(additionalProps).map(rowCallback)}
                 </tbody>
             </table>
             <Legend />

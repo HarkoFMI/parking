@@ -15,11 +15,11 @@ function getRandomState() {
     return states[Math.floor(Math.random() * states.length)];
 }
 
-const createParkingRow = (rowName, spots, isAdmin) => {
+const createParkingRow = (rowName, spots, additionalProps) => {
     let row = [];
     for (let x = 1; x <= spots; x++) {
         console.log(getRandomState());
-        row.push(<ParkingSpot isAdmin={isAdmin} location={rowName + x} state={getRandomState()}/>)
+        row.push(<ParkingSpot location={rowName + x} state={getRandomState()} {...additionalProps} />)
     }
     return row;
 }
@@ -32,13 +32,13 @@ const createEmptyRow = (spots) => {
     return row;
 }
 
-export function getRowConfig(isAdmin) {
+export function getRowConfig(additionalProps) {
     return [
-        createParkingRow("A", 10, isAdmin),
+        createParkingRow("A", 10, additionalProps),
         createEmptyRow(10),
-        [<EmptySpot />, ...createParkingRow("B", 8, isAdmin), <EmptySpot />],
+        [<EmptySpot />, ...createParkingRow("B", 8, additionalProps), <EmptySpot />],
         createEmptyRow(10),
-        createParkingRow("C", 10, isAdmin),
+        createParkingRow("C", 10, additionalProps),
     ]
     
     

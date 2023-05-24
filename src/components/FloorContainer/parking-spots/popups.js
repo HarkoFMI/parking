@@ -35,9 +35,8 @@ export const UnavailablePopup = ({ closeCallback }) => {
     </>
 }
 
-export const AvailablePopup = ({ closeCallback, reserveCallback }) => {
-    let [from, setFrom] = useState(null);
-    let [to, setTo] = useState(null);
+export const AvailablePopup = (props) => {
+    let { to, from, setTo, setFrom, closeCallback, reserveCallback } = props;  
 
     return <>
         <Modal.Header className={styles.modalText}>This spot is available for reservation</Modal.Header>
@@ -73,9 +72,8 @@ export const AvailablePopup = ({ closeCallback, reserveCallback }) => {
     </>
 }
 
-export const BeingTakenPopup = ({ closeCallback, reserveCallback }) => {
-    let [from, setFrom] = useState(null);
-    let [to, setTo] = useState(null);
+export const BeingTakenPopup = (props) => {
+    let { to, from, setTo, setFrom, closeCallback, reserveCallback } = props;  
 
     return <>
         <Modal.Header className={styles.modalText}>Another user is considering reserving this spot</Modal.Header>

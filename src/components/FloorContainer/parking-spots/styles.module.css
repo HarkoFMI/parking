@@ -165,7 +165,24 @@
         left: 30%;
     }
     
-    
+    .availableModal {
+        width: 45% !important;
+        height: 40%;
+        margin: auto;
+        position: relative;
+        top: 25%;
+        left: 25%;
+    }
+
+    .beingTakenModal {
+        width: 45% !important;
+        height: 50%;
+        margin: auto;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+    }
+
     .reservedModal {
         width: 45% !important;
         height: 25%;
