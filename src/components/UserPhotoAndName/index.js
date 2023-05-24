@@ -7,7 +7,7 @@ class UserPhotoAndName extends React.Component {
 render() {
   return (
     <div className={styles.flexContainer}>
-      <img src={userPhoto} alt="userPhoto"/>
+      <img src={userPhoto} className={styles.image} alt="userPhoto"/>
       <h2>User Name</h2>
     </div>
 );
