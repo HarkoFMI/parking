@@ -33,7 +33,7 @@ class Header extends React.Component {
             <Nav.Link href="/floors" className={styles.navLink}>
               <Icon name="car" size="big"/>
             </Nav.Link>
-            <Nav.Link href="/profile/index.js" className={styles.navLink}>
+            <Nav.Link href="/profile" className={styles.navLink}>
               <Icon name="user outline" size="big"/>
             </Nav.Link>
           </Nav>
