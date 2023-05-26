@@ -8,12 +8,13 @@ import { FloorConfig } from "components/FloorConfig";
 export default function Floors({ isAdmin }) {
     let [from, setFrom] = useState(new Date());
     let [to, setTo] = useState( new Date(new Date().getTime() + (24 * 60 * 60 * 1000)));
+    let [floor, setFloor] = useState("Floor 1");
   
     return (
       <div className={styles.wrapper}>
         <Header />
-        <FloorConfig from={from} setFrom={setFrom} to={to} setTo={setTo} />
-        <FloorContainer isAdmin={isAdmin} from={from} setFrom={setFrom} to={to} setTo={setTo}  />
+        <FloorConfig from={from} setFrom={setFrom} to={to} setTo={setTo} floor={floor} setFloor={setFloor} />
+        <FloorContainer isAdmin={isAdmin} from={from} setFrom={setFrom} to={to} setTo={setTo} floor={floor} setFloor={setFloor} />
       </div>
     );
 

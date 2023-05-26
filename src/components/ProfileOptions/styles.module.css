@@ -3,6 +3,8 @@
   margin: 2em auto 0 auto;
   width: 50%;
   flex-direction: column;
+  position: relative;
+  bottom: 1.5em;
 }
 
 .settingsDiv{
